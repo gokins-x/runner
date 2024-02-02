@@ -16,7 +16,7 @@ server:
 命令运行 ./gokinsr -h 192.168.1.2:8031 -s abcd12345678 -p build@golang -p build@node
 + 192.168.1.2 为上面设置的gokins内网地址,可根据需要修改
 + -p 参数用做设置此runner可以运行 [build@golang, build@node] 这两个类型的step
-官方编译版本 http://down.gokins.cn/static/golang/gokins/gokinsr
+> 官方编译版本下载 http://down.gokins.cn/static/golang/gokins/gokinsr
 
 ### 使用镜像+Runner下载gokinsr-alpine
 docker使用，环境变量配置
@@ -42,4 +42,4 @@ docker run -d --name gokinsr-node \
 node:14-alpine3.14
 ```
 
-官方编译版本 http://down.gokins.cn/static/golang/gokins/gokinsr-alpine
+> 官方编译版本下载 http://down.gokins.cn/static/golang/gokins/gokinsr-alpine
